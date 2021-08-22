@@ -1,0 +1,69 @@
+x<-("saad")
+y<-list("saad",52.87,TRUE)
+y[3]
+y[4]<-"null"
+y[4]
+matrix(nrow =3,ncol = 6 )
+attributes(y)
+class(y)
+class(x)
+as.logical(x)
+as.logical(y)
+as.character(y)
+h<-"work hard will pay you back"
+x
+h
+y
+v<-c(TRUE,"saad",52.11,2+2i,length(10))
+b<-c("saad", lenght=10)
+z<-vector("numeric",length=10)
+g1<-c("saadi",52.1,34L,TRUE)
+class(g1)
+m<-matrix(nrow=4,ncol=8)
+m
+dim(m)
+attributes(m)
+m1<-matrix(1:6,nrow=2,ncol=3)
+m1
+m1<-matrix(1:6,nrow=3,ncol=2)
+m1
+m1<-matrix(1:12,nrow=2,ncol=3)
+m1
+y<-1:4
+t<-5:8
+cbind(y,t)
+d1<-rbind(t,y)
+d1
+r=1:20
+r
+r=20:1
+r
+r=c(1:20, 19:1)
+r
+tmp<-c(4,6,3)
+tmp
+rep(tmp,10)
+rep(tmp,l=31)
+rep(tmp,times=c(10,20,30))
+list1<-list(TRUE,52.7,"saad",56L)
+list1[3]
+list1[3]<-"null"
+list1[3]
+list1[5]<-"saad qadeer"
+list1[5]
+list1[6]
+list2=list(351,'saad')
+class(list1)
+vector1<-c(1:20)
+vector1
+c1=factor(c("yes","no","yes","yes","tie"))
+c1
+table(c1)
+unclass(c1)
+f=factor(c('punjab','kpk','sindh','gb','bloachistan','kpk'))
+unclass(f)
+table(f)
+j=factor(c('monday','friday','sunday','friday')
+            ,levels = c('friday','sunday','monday'))
+table(j)
+unclass(j)
